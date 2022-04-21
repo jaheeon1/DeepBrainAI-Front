@@ -1,4 +1,3 @@
-import tableStyles from '../common/styles/table.module.css'
 export default function  Login(){
     const handleChange = ()=>{}
     return <form onSubmit={
@@ -8,7 +7,7 @@ export default function  Login(){
         }
     }
     >
-        <table className={tableStyles.table}>
+        <table>
             <thead>
                 <tr>
                     <th colSpan={2}><h1>로그인</h1></th>
